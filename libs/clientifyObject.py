@@ -128,4 +128,6 @@ class ClientifyObject:
         return r
 
 if __name__ == "__main__":
-    pass
+    clientify = ClientifyObject("notificaciones@rocketbot.com","R0ck3tb0t Clientify")
+    print(clientify.getDeal("2704232", True))
+    # print(clientify.getProducts())
